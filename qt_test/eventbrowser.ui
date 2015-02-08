@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EventBrowser</class>
+ <widget class="QMainWindow" name="EventBrowser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>587</width>
+    <height>440</height>
+   </rect>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/res/icon.ico</normaloff>:/res/icon.ico</iconset>
+  </property>
+  <property name="windowTitle">
+   <string>EventBrowser</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" colspan="2">
+     <widget class="QTreeWidget" name="treeWidget">
+      <property name="allColumnsShowFocus">
+       <bool>false</bool>
+      </property>
+      <property name="headerHidden">
+       <bool>false</bool>
+      </property>
+      <column>
+       <property name="text">
+        <string>EID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Draw #</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Duration (us)</string>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>New Item</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>New Subitem</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>New Item</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>New Item</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>New Item</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>New Item</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>New Subitem</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>New Subitem</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>New Subitem</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>New Subitem</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>New Subitem</string>
+          </property>
+         </item>
+        </item>
+        <item>
+         <property name="text">
+          <string>New Subitem</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>New Subitem</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>New Subitem</string>
+         </property>
+        </item>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>New Item</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QRadioButton" name="radioButton">
+      <property name="text">
+       <string>RadioButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QToolButton" name="toolButton">
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QProgressBar" name="progressBar">
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QCheckBox" name="checkBox">
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
